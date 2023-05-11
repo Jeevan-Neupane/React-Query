@@ -1,0 +1,21 @@
+{
+    "superHero":[
+        { 
+            "id":1,
+            "name":"Superman"
+        },
+
+        {
+            "id":2,
+            "name":"Spiderman"
+        },
+        {
+            "id":3,
+            "name":"Batman"
+        },
+        {
+            "id":4,
+            "name":"Ironman"
+        }
+    ]
+}
