@@ -58,6 +58,11 @@ function Navbar() {
                 Pages Pagination 
               </NavLink>
             </li>
+            <li>
+              <NavLink to="infinite" style={activeLinkStyle}>
+                Infinite
+              </NavLink>
+            </li>
             
           </ul>
         </div>

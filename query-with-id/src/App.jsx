@@ -13,6 +13,7 @@ import ParallelQuiries from "./Components/ParallelQuiries";
 import DyanamicParallel from "./Components/DyanamicParallel";
 import DependentQuiries from "./Components/DependentQuiries";
 import Pagination from "./Components/Pagination";
+import InfiniteQueries from "./Components/InfiniteQueries";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="dynamic-parallel" element={<DyanamicParallel heroIds={[1,3]}/>}/>
         <Route path="dependent" element={<DependentQuiries email="jeevan.neupane03@gmail.com"/>}/>
         <Route path="pagination" element={<Pagination/>}/>
+        <Route path="infinite" element={<InfiniteQueries/>}/>
       </Route>
     )
   );
